@@ -1,0 +1,731 @@
+html{
+  min-height: 100%;
+}
+@font-face {
+  font-family: face;
+  src: url("./font/Overpass-Regular.ttf");
+}
+
+.top{
+  background-color: black;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.top-text{
+  display: flex;
+}
+.top-text h4{
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+}
+.top-text h5{
+  font-size: 30px;
+  color: rgb(7, 61, 7);
+  font-weight: lighter;
+}
+.top-btn .btn-secondary{
+  background-color: rgb(17, 184, 17);
+  color: white;
+  border: none;
+}
+.top-nav{
+  padding: 10px;
+  background-color: white;
+ 
+ 
+}
+.top-navbar{
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+}
+.top-nav-content{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.top-nav .container .top-nav-txt{
+  display: flex;
+}
+.top-nav .container .top-nav-info {
+  display: flex;
+}
+.bell-top{
+  background-color: #e3e3e3;
+  border: 1px solid rgb(248, 247, 247);
+  padding:10px 15px 15px 15px ;
+  width: 100%;
+  height: 80%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.envelope-top{
+  background-color: #e3e3e3;
+  border: 1px solid rgb(248, 247, 247);
+  padding:10px 15px 15px 15px ;
+  width: 100%;
+  height: 80%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.user-top{
+  background-color: #e3e3e3;
+  border: 1px solid rgb(248, 247, 247);
+  padding:10px 15px 15px 15px ;
+  width: 100%;
+  height: 80%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.top-nav-txt1{
+  display: flex;
+  margin-right: 1rem;
+}
+.top-nav-txt2{
+  padding: 10px;
+}
+.top-nav-txt2 .fa-search{
+  align-content: center;
+  padding-top: 10px;
+  border-radius: 0px 5px 5px 0px;
+}
+.top-nav-txt2 .btn-success{
+  background:linear-gradient(rgb(107, 233, 107) , rgb(28, 175, 163))
+}
+.top-nav-txt2 .form-control{
+  border-radius: 5px 0px 0px 5px;
+}
+.hr{
+  margin-top: 5rem;
+}
+.navbar{
+  padding-top: 0px;
+}
+.find-search{
+  background-color: black;
+  padding: 30px;
+}
+.find-text h1{
+  color: white;
+  text-align: center;
+}
+.find-text h6{
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+.find-btn{
+justify-content: center;
+}
+.find-btn .small{
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 1rem;
+}
+.find-btn .btn-danger{
+  background-color: rgb(81, 241, 188);
+  border: none;
+  padding: 7px 30px 7px 30px;
+}
+.filter{
+  padding: 15px;
+  background-color: white;
+}
+
+.filter .dropdowns{
+  display: flex;
+  justify-content: space-between;
+}
+ .filter .form-check-input{
+  font-size: larger !important;
+}
+.filter .form-check-label{
+font-size: large;
+}
+
+.selling{
+  margin-top: 1rem;
+  background-color:rgb(240, 236, 236);
+  padding: 10px;
+}
+.sort{
+  display: flex;
+  justify-content: space-between;
+}
+.sort-content{
+  display: flex;
+  justify-content: space-between;
+}
+.drops-text{
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.sort-text{
+  margin-top: 10px;
+}
+.slide{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.slide .btn-light{
+background-color: white;
+border-radius: 0% 50% 50% 0%;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.slide .btn-light:hover{
+  background:linear-gradient(rgb(107, 233, 107) , rgb(28, 175, 163));
+  border-radius: 0% 50% 50% 0%;
+  color: white;
+  
+  }
+.slide .btn-dark{
+  background:white;
+  border-radius: 50% 0% 0% 50%;
+  color: black;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.315) 0px 5px 15px;
+  }
+  .slide .btn-dark:hover{
+    background:linear-gradient(rgb(107, 233, 107) , rgb(28, 175, 163));
+    border-radius: 50% 0% 0% 50%;
+    color: white;
+    border: none;
+    }
+  .slide .btn-success{
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+  }
+  .slide .btn-success:hover{
+    background:linear-gradient(rgb(107, 233, 107) , rgb(28, 175, 163));
+    border-radius:50%;
+    color: white;
+    border: none;
+  }
+  .slide .b1{
+    margin: 0px 5px 0px 0px;
+  }
+  .slide .b2{
+    margin: 0px 5px 0px 0px;
+  }
+  .slide .b3{
+    margin: 0px 5px 0px 0px;
+  }
+  .slide .b4{
+    margin: 0px 5px 0px 0px;
+  }
+  .slide .b5{
+    margin: 0px 5px 0px 0px;
+  }
+  .slide .b6{
+    margin: 0px 5px 0px 0px;
+  }
+  .slide .card-body{
+  height: 18vh;
+}
+.selling .card .pic{
+  background-color: white;
+  width: 25%;
+  border-radius: 50%;
+  padding: 7px;
+  top: -30px;
+  position: relative;
+  left: 160px;
+}
+.selling .card .card-body{
+  position: relative;
+  top: -65px;
+}
+.selling .card{
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+}
+.selling .card .card-body .rating{
+  color: aqua;
+}
+.selling .card .card-footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+.selling .temp1{
+border-radius: 50px;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 2px;
+background-color: gray;
+}
+.selling .temp2{
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  background-color: gray;
+  }
+  .selling .temp3{
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: gray;
+    }
+    .footer-top{
+      padding: 10px;
+    }
+    .footer-top ul h5{
+      margin-bottom: 1rem;
+    }
+    .footer-top ul{
+      list-style: none;
+      font-size: 13px;
+    }
+    .footer-top ul li{
+      margin-top: .5rem;
+    }
+    .footer-top ul li a{
+      text-decoration: none;
+      color: gray;
+    }
+    .footer-top ul li a:hover{
+      text-decoration: none;
+      color:rgb(52, 52, 243);
+    }
+    .footer-top .copyright{
+      display: flex;
+    }
+    .footer-top .footer-copy{
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer-top .copy{
+      margin-left: .3rem;
+      font-size: 18px;
+      color: gray;
+      padding: 10px;
+      font-weight: lighter;
+    }
+    .footer-top .logo h4{
+      font-size: 30px;
+    }
+    .footer-top .footer-icon{
+      display: flex;
+    }
+    .footer-top .facebook{
+      margin-left: .5rem;
+      border: 1px solid gray;
+      border-radius: 50%;
+      padding: 7px 10px 12px 10px;
+      width: 45%;
+      height: 80%;
+      color: gray;
+      cursor: pointer;
+      
+    }
+    .footer-top .twitter{
+      margin-left: .5rem;
+      border: 1px solid gray;
+      border-radius: 50%;
+      padding: 7px 10px 12px 10px;
+      width: 45%;
+      height: 80%;
+      color: gray;
+      cursor: pointer;
+      
+    }
+    .footer-top .linkedin{
+      margin-left: .5rem;
+      border: 1px solid gray;
+      border-radius: 50%;
+      padding: 7px 10px 12px 10px;
+      width: 45%;
+      height: 80%;
+      color: gray;
+      cursor: pointer;
+    }
+    .footer-top .instagram{
+      margin-left: .5rem;
+      border: 1px solid gray;
+      border-radius: 50%;
+      padding: 7px 10px 12px 10px;
+      width: 45%;
+      height: 80%;
+      color: gray;
+      cursor: pointer;
+      
+    }
+
+/** company-profile style begins**/
+.img-profileN{
+  background: url("../images/img-3.jpg");
+  background-repeat: no-repeat;
+  background-size:auto;
+  height: 40vh;
+  background-position: 100%;
+}
+.profileN .row{
+  --bs-gutter-x: .5rem;
+    --bs-gutter-y: .2rem;
+}
+.container .profileN{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.container .profile-btn{
+  display: flex;
+}
+.profile-btn .p-btn{
+  margin-right: .5rem;
+
+}
+.profile-btn .p-btn .btn-outline-primary{
+
+border: none;
+padding: 5px 20px 5px 20px;
+}
+.profile-btn .p-bt .btn-primary{
+  border: none;
+  padding: 5px 20px 5px 20px;
+  }
+  .porfile-overview{
+    margin-top: 2rem;
+    background-color: whitesmoke;
+    padding: 25px;
+  }
+   .p-btn .btn-outline-success{
+    color: chocolate;
+    background-color: #e3e3e3;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    }
+.porfile-overview .pics{
+  border-radius: 50%;
+  width: 70%;
+}
+.who-viewed  p.btn-outline-success{
+  color: rgb(49, 243, 178);
+  background-color: rgb(250, 250, 250);
+ 
+  }
+  .who-viewed .picss{
+    border-radius: 50%;
+    width: 60%;
+  }
+  .who-viewed .dot{
+    color: rgb(3, 158, 3);
+    background-color: white;
+    top: -20px;
+    position: relative;
+    padding: 2px;
+    left: 40px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+
+  }
+  .followers p{
+    font-size: 10;
+    margin-top: 0;
+
+  }
+  .followers{
+    font-size: 10;
+    margin-top: 0;
+    padding: 10px;
+    
+  }
+  .who-viewed{
+    font-size: 12px;
+    background-color: white;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+  }
+  .who-viewed .btn-outline-primary{
+    font-size: 12px;
+    margin-left: 0px !important;
+  }
+  .porfile-overview .card-body{
+    text-align: center;
+  }
+
+  .porfile-overview .card-footer{
+    text-align: center;
+  }
+  .porfile-overview .online-content .card-title{
+    color: chocolate;
+  }
+
+  .porfile-overview .online-content  .btn-outline-success{
+    color: chocolate;
+    border: 1px solid chocolate;
+  }
+  .porfile-overview .online-content  .btn-outline-success:hover{
+    color: #fff;
+    border: 1px solid chocolate;
+    background-color: chocolate;
+  }
+  .envato-profile{
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    --bs-gutter-x: .5rem;
+    --bs-gutter-y: .2rem;
+
+  }
+
+/* profile Style*/
+.contact-profile{
+  margin-top: 4rem;
+padding: 10px;
+background-color: whitesmoke;
+}
+.contact-me {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+  padding: 10px;
+}
+
+.contact-profile .contact-me .amb{
+  background-color: rgb(52, 64, 131);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  
+  cursor: pointer;
+}
+
+.contact-me .amb h6{
+  font-size: 12px !important;
+}
+
+.contact-me .amb-btn{
+  background-color: white;
+  color: rgb(47, 230, 123);
+  border: 1px solid rgb(47, 230, 123);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-me .amb-btn .fa-circle{
+ margin-top: 10px;
+}
+.contact-profile .contact-pics{
+text-align: center;
+}
+.contact-profile .contact-pics .pix{
+border-radius: 50%;
+width: 30%;
+}
+.contact-profile .contact-pics small, p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.contact-profile .btn-outline-success{
+  color: rgb(255, 255, 255);
+  background:linear-gradient(rgb(107, 233, 107) , rgb(28, 175, 163));
+  border: none;
+  padding: 7px;
+}
+.contact-profile .btn-secondary{
+  color: black;
+  background-color: white;
+ 
+}
+.small-text {
+  font-size: 12px;
+}
+.contact-description{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+  padding: 10px;
+}
+.contact-description p {
+  text-align: left;
+}
+
+.contact-card .card .pic{
+  background-color: white;
+  width: 25%;
+  border-radius: 50%;
+  padding: 7px;
+  top: -30px;
+  position: relative;
+  left: 120px;
+}
+.contact-card .card .card-body{
+  position: relative;
+  top: -65px;
+}
+.contact-card .card .card-body p {
+  text-align: left;
+}
+.contact-card .card{
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+  text-decoration: none;
+  color: black;
+  /* width: 13rem; */
+}
+.contact-card .card:hover .card-img-top {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in;
+}
+.contact-card .card .card-body .rating{
+  color: orange;
+}
+.contact-card .card .card-footer{
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-card .footer-text p {
+  font-size: 12px;
+}
+.contact-card .ratings p{
+  font-size: 13px;
+}
+.contact-profile .icons p{
+  font-size: 14px;
+}
+.ratingCont p {
+  text-align: left;
+}
+/* alert style */
+.alert{
+  background-color: whitesmoke;
+  margin-top: 2rem;
+}
+.alert-top{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+}
+.alert .card{
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+}
+ .alert-profile{
+  font-size: 13px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+  padding: 20px;
+  
+}
+.alert .card .card-title{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.alert .alert-profile, p,  h5{
+  font-size: 14px;
+}
+.alert .alert-evanto, p, h4{
+  text-align: center;
+}
+.alert .alert-evanto{
+  padding: 10px;
+}
+.alert .recent .daily{
+  margin-left: -50px;
+}
+.alert .recent{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px; 
+  padding:10px;
+  
+}
+.alert .recent .dropdown .btn{
+  font-size: 10px;
+  background: dodgerblue;
+  color: #fff;
+}
+.alert .recent .btn:hover{
+  color: white;
+  font-size: 10px;
+}
+
+.alert .recent .btn-outline-success{
+  font-size: 12px;
+}
+.alert .recent .daily-content{
+ font-size: 14px;
+}
+.alert .recent .daily{
+  margin-right: 50px;
+ }
+.userType {
+  background-color: #115c83;
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+.status {
+  padding: 2px 15px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+ .status span {
+  height: 10px;
+  width: 20px;
+  background-color: #115c83;
+}
+
+
+/* FAQ */
+
+
+
+    /**media view */
+    @media (max-width: 500px){
+      .selling .temp3{
+       margin-top: 1rem;
+        }
+        .footer-top ul{
+          text-align: center;
+        }
+        .footer-top .footer-copy{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .footer-top .instagram{
+          height: 80%;
+        }
+        .footer-top .facebook{
+          height: 80%;
+        }
+        .footer-top .twitter{
+          height: 80%;
+        }
+        .footer-top .linkedin{
+          height: 80%;
+        }
+        .who-viewed .dot{
+          color: rgb(3, 158, 3);
+          background-color: white;
+          top: -20px;
+          position: relative;
+          padding: 2px;
+          left: 50px;
+          width: 30%;
+          height: 30%;
+          border-radius: 50%;
+      
+        }
+        .contact-card .card{
+          box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+          width: 100%;
+        }
+    }

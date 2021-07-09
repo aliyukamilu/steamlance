@@ -1,0 +1,401 @@
+/* NAVBAR START */
+
+.container nav {
+    background-color: white !important;
+    margin-bottom: 1rem;
+}
+
+.container .navbar .link .black {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+
+.container .navbar .link strong {
+    color: white;
+    background-color: dodgerblue;
+    font-size: 16px;
+}
+
+.container .navbar a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(63, 61, 61);
+}
+
+.container .navbar button {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 5px 15px 5px 15px;
+}
+
+.signInBtn {
+    border-radius: 20px;
+    font-size: 14px;
+    color: blue !important;
+}
+
+.signInBtn:hover {
+    color: #fff !important;
+}
+
+/* END OF NAVBAR */
+
+/* BANNER START */
+
+.container.banner {
+    margin-top: 3rem;
+}
+
+.container.banner .text {
+    margin-top: 2rem;
+}
+
+.container.banner .form .text-input {
+    margin-bottom: 1.3rem;
+    width: 80%;
+    background-color: white;
+    border: solid 1px lightgray !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner .form .text-input {
+    border: dodgerblue !important;
+}
+
+.banner .form .text-input::placeholder {
+    color: grey;
+    padding-left: 1rem;
+}
+
+.banner .form .primary-btn {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.banner .form .primary-btn:hover {
+    background-color: white;
+    color: dodgerblue;
+    border: solid 1px dodgerblue;
+}
+
+.banner form .align {
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+}
+
+.banner form .or {
+    text-align: center;
+}
+
+.banner form span {
+    font-weight: 600;
+    color: grey;
+}
+
+.banner .form .secondary-btn {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: white;
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+    border: solid 1px grey;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.banner .form .secondary-btn:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+
+.banner .form .or .bar {
+    width: 38%;
+}
+
+.banner .form .or {
+    display: flex;
+    margin-top: .5rem;
+}
+
+.banner .form .or span {
+    margin: 3px;
+    text-align: center;
+}
+
+/* BANNER ENDS */
+
+/* SECTION START */
+
+.growth .background1 {
+    background-image: url(../img/Jim-Fahad-Digital-Blog-Website_service.jpg);
+    height: 50vh !important;
+}
+
+.growth .background2 {
+    background-image: url(../img/Jim-Fahad-Digital-Blog-Website_service.jpg);
+    height: 50vh !important;
+}
+
+.growth .background3 {
+    background-image: url(../img/Jim-Fahad-Digital-Blog-Website_service.jpg);
+    height: 50vh !important;
+}
+
+.container.carousel h6 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container.carousel .wrapper {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container.carousel h2 {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.container.carousel .carousel {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.container.carousel .slick-slide {
+    margin: 10px;
+}
+
+.container.carousel .slick-slide img {
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.container .wrapper.carousel .slick-dots li button:before {
+    font-size: 20px;
+    color: white;
+}
+
+/* SECTION START */
+
+/* ICONS START*/
+
+.container.icons h2 {
+    margin-bottom: 3rem;
+}
+
+.container.icons {
+    margin-bottom: 10rem;
+}
+
+.container.icons .col {
+    text-align: center;
+}
+
+.container.icons .col i {
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.container.icons .col p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.container.icons .space {
+    margin-top: 3rem;
+}
+
+/* ICONS END */
+
+/* BANNER 2 START */
+
+.container.banner-2 {
+    background-image: url(../img/Jim-Fahad-Digital-About.jpg);
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.container.banner-2 .cards {
+    background: dodgerblue;
+    color: white;
+    border-radius: 12px;
+    width: 300px;
+    height: 120px;
+    margin: 1rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container.banner-2 .flex {
+    margin-top: 2rem;
+}
+
+.container.banner-2 .cards>h2 {
+    padding: 10px 0 0 1rem;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.container.banner-2 .cards>p {
+    padding: 10px 0 0 1rem;
+}
+
+/* BANNER 2 ENDS */
+
+/* CARDS STARTS */
+
+.container.cards .card {
+    border: none !important;
+}
+
+.container.cards .card-body>p {
+    color: grey;
+}
+
+/* CARDS ENDS */
+
+/* FOOTER START */
+
+.container.footer-top {
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-top ul h5 {
+    margin-bottom: 1rem;
+}
+
+.footer-top ul {
+    list-style: none;
+    font-size: 13px;
+}
+
+.footer-top ul li {
+    margin-top: .5rem;
+}
+
+.footer-top ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-top ul li a:hover {
+    text-decoration: none;
+}
+
+.footer-top .copyright {
+    display: flex;
+}
+
+.footer-top .footer-copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top .copy {
+    margin-left: .3rem;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.footer-top .logo h4 {
+    font-size: 30px;
+}
+
+.footer-top .footer-icon {
+    display: flex;
+}
+
+.footer-top .facebook {
+    margin-left: .5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 7px 10px 12px 10px;
+    /* width: 45%; */
+    height: 60%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-top .facebook:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.footer-top .twitter {
+    margin-left: .5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 7px 10px 12px 10px;
+    width: 45%;
+    height: 60%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-top .twitter:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.footer-top .linkedin {
+    margin-left: .5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 7px 10px 12px 10px;
+    width: 45%;
+    height: 60%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-top .linkedin:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.footer-top .instagram {
+    margin-left: .5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 7px 10px 12px 10px;
+    width: 45%;
+    height: 60%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-top .instagram:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+/* FOOTER START */

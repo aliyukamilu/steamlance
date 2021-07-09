@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4 !important;
+    font-size: 14px;
+}
+
+.card {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.btn-gradient {
+    background: dodgerblue;
+    /* fallback for old browsers */
+    color: #fff !important;
+    font-size: 14px;
+    background: -webkit-linear-gradient(to right, rgb(30, 144, 255), #228cc5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(30, 144, 255), #228cc5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-gradient:hover {
+    color: #fff;
+}
+
+.theSide .userType {
+    background-color: #115c83;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.theSide .status {
+    padding: 2px 15px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.theSide .status span {
+    height: 10px;
+    width: 20px;
+    background-color: #115c83;
+}
+
+.theSide .Name {
+    font-weight: bold;
+}
+
+.theSide .Bio {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.theSide .rating {
+    font-weight: normal;
+    font-size: 14px;
+    color: #878282;
+}
+
+.theSide .rating span {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.theSide .infoTags {
+    font-size: 12px;
+}
+
+.theSide .progress {
+    width: 60px;
+    height: 8px;
+    margin-top: 8px !important;
+}
+
+.theSide .progress .progress-bar {
+    background: #c2e59c;
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+}
+
+/* theMain */
+
+.activeOrders p {
+    margin: 0 !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.activeOrders p:nth-last-child(1) {
+    color: #878282;
+}
+
+.yourSuccess p {
+    color: #232323;
+    font-size: 12px;
+}
+
+.successSteps .theSteps h5 {
+    font-size: 18px;
+}
+
+.successSteps .theSteps img {
+    width: 50px;
+}
+
+.successSteps .theSteps p {
+    font-size: 12px;
+    color: #878282;
+}
+
+/* ORDER PAGE 
+
+*/
+
+.orderTabContent {
+    background: #fff;
+}
+
+.orderTabContent .statusBtn {
+    background: dodgerblue;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, dodgerblue, #1981ba);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, dodgerblue, #197aae);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.orderTabContent table td {
+    font-size: 14px;
+}
+
+.orderTabContent .workImg {
+    width: 50px;
+}
+
+/* earnings  */
+
+.withdraw .btn {
+    font-size: 14px;
+    word-wrap: none;
+    width: 150px;
+}
+
+.earningSummary p {
+    color: #858585;
+    font-size: 14px;
+    text-align: center;
+}
+
+.earningSummary h1 {
+    text-align: center;
+}
+
+.availableFor {
+    font-size: 14px;
+}
+
+.availableFor span {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.earningTable td {
+    font-size: 14px;
+}
+
+.earningTable td a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.earningTable tbody td:last-child {
+    color: dodgerblue;
+}
+
+/* Overview  */
+
+.overviewSideTabs ul {
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.overviewSideTabs ul .nav-link {
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 14px;
+}
+
+.overviewSideTabs ul .nav-link:hover {
+    background: #f4f4f4;
+    cursor: pointer;
+}
+
+.overviewSideTabs ul .nav-link.active {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.OverviewTabContent label {
+    font-size: 14px;
+    color: #858585;
+}
+
+.editAccount input, option {
+    font-size: 14px;
+}
+
+/* Notifiatio Tab */
+
+.notificationsInfo p {
+    color: #858585;
+}
+
+/* Payment Tab */
+
+.paymentTable th {
+    padding: 20px;
+}
+
+.paymentTable td {
+    padding: 20px;
+}
+
+/* OVERVIEW TAB PAGE */
+
+.overviewCards h5 {
+    font-size: 18px;
+}
+
+.video {
+    margin: 0;
+    width: 100%;
+    padding-top: 70%;
+    position: relative;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.stick {
+    height: 100px;
+    width: 1px;
+    background: #858585;
+    margin-left: 80px;
+}
+
+/* product Profile  */
+
+#profileTab {
+    border: none;
+}
+
+#profileTab li .nav-link:hover {
+    border: transparent;
+}
+
+#profileTab li .nav-link {
+    padding: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+#profileTab li .nav-link.active {
+    background: none;
+    border: transparent;
+    border-bottom: 3px solid #1cd8d2;
+}
+
+.saveRow .btn {
+    background: #f4f4f4;
+    width: 80px;
+    margin: 8px;
+    font-size: 12px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.saveRow .btn:nth-child(2) {
+    background: #fff;
+    width: 50px;
+}
+
+.stars {
+    color: orange;
+}
+
+.userRate .name {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 12px;
+}
+
+.userRate .queue {
+    color: #858585;
+}
+
+.galleria img {
+    width: 150px;
+}
+
+.planTable .type {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1cd8d2;
+}
+
+.planTable .descrip {
+    font-size: 12px;
+}
+
+.fa-check.avai {
+    color: dodgerblue;
+}
+
+.fa-check.Notavai {
+    color: #858585;
+}
+
+.theReviews .progress {
+    width: 70%;
+    height: 8px;
+    margin-top: 8px;
+}
+
+#planTab {
+    background: #fff;
+}
+
+#planTab li .nav-link.active {
+    border-color: transparent;
+    border-bottom: 3px solid #1cd8d2;
+}
+
+.planSide .para {
+    color: #000;
+    font-size: 18px;
+}
+
+/* .galleria */
+
+.theSliderMain {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Messages */
+
+.searchContainer {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 15px;
+    border-right: 1px solid #e3e3e3;
+}
+
+.chatContainer .time {
+    font-size: 10px;
+}
+.chatContainer p {
+    text-align: justify;
+}
+.chatContainer .chatUserName {
+    font-weight: bold;
+}
+
+.chatContainer .lastChat {
+    font-size: 10px;
+    margin-top: -13px;
+}
+
+.fa-check.blue {
+    color: blue;
+}
+
+.chatHeader {
+    border-bottom: 1px solid #e3e3e3;
+    margin-left: -22px;
+}
+
+.chatHeader .hisAbout {
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.talkFunc {
+    margin-top: 14px;
+    color: dodgerblue;
+    border-color: 1px solid dodgerblue;
+    width: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.talkFunc:hover {
+    color: #fff;
+    background: #1cd8d2;
+}
+
+.chatBody {
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.typeMessage {
+    border: none;
+    margin-left: -22px;
+    width: 103%;
+}
+.networkList li {
+    padding: 15px;
+}
+.followCard img {
+    margin-left: -20px;
+    width: 60px;
+}
+.chatContainer .list-group {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.theForm .form-group{
+    position: relative;
+}
+.theForm .form-group i {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    left: 10px;
+    margin-top: 22px;
+}
